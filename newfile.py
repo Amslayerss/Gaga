@@ -14,6 +14,8 @@ from datetime import datetime, timedelta
 from colorama import init, Fore, Style
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
+from telegram import Update
+from telegram.ext import Updater, CommandHandler, CallbackContext
 
 init()
 
